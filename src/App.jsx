@@ -1,11 +1,12 @@
 import './App.css'
-import RandomDogImage from './components/RandomDogImage'
+import ProductCard from './components/ProductCard/ProductCard'
+import ProductList from './components/ProductCard/ProductList'
 
 function App() {
    return (
     <>
       <h1 className='text-4xl font-bold text-center underline'>React-Mini-Projects-Level-Beginner</h1>
-      <RandomDogImage/>
+      <ProductList/>
     </>
   )
 }
